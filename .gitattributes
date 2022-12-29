@@ -1,2 +1,67 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import java.util.ArrayList;
+
+public class EventOrganiser{
+ public static Object Customer1;
+
+ private int Customer1ID;
+
+ public int getCustomer1ID() {
+  return Customer1ID;
+ }
+
+ public void setCustomer1ID(int customer1ID) {
+  Customer1ID = customer1ID;
+ }
+
+ public String getCustomer1Name() {
+  return Customer1Name;
+ }
+
+ public void setCustomer1Name(String customer1Name) {
+  Customer1Name = customer1Name;
+ }
+
+ public String getCustomer1Addres() {
+  return Customer1Addres;
+ }
+
+ public void setCustomer1Addres(String customer1Addres) {
+  Customer1Addres = customer1Addres;
+ }
+
+ public String getCustomer1Email() {
+  return Customer1Email;
+ }
+
+ public void setCustomer1Email(String customer1Email) {
+  Customer1Email = customer1Email;
+ }
+
+ public int getCustomer1Phone() {
+  return Customer1Phone;
+ }
+
+ public void setCustomer1Phone(int customer1Phone) {
+  Customer1Phone = customer1Phone;
+ }
+
+ private String Customer1Name;
+ private String Customer1Addres;
+ private String Customer1Email;
+ private int Customer1Phone;
+
+ public EventOrganiser(){
+
+ }
+ //untuk mencetak semua data tamu undangan
+
+ public static void main(String[] args) {
+  public void PrintGuest(ArrayList<EventOrganiser>daftar_tamu){
+    System.out.println("\n===========Daftar Guests==========\n");
+  }
+
+ }
+
+ }
+ public
+}
